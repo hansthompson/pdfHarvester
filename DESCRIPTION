@@ -1,0 +1,9 @@
+Package: pdfHarvester
+Title: Extract tablular data from pdf files by microtasks.
+Description: see the description file
+Version: 0.1
+Author: Hans Thompson <hans.thompson1@gmail.com>
+Depends:
+    R (>= 3.0.2)
+License: MIT
+LazyData: true
