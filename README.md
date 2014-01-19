@@ -14,25 +14,26 @@ Quality Control/Qaulity Assurance of converted data is or it should be a big con
 
 pdfHavester is a framework for using R and other open source tools to capture data within images or pdf documents with images in them.  What's the process of how it works?
 
-	1. A project directory is created only containing only pdf files.
+1. A project directory is created only containing only pdf files.
 
-	2. The files are converted to a  high quality and low quality level of image.  One for high resolution computerized transcription and the other for the user to parse table structure graphically.
+2. The files are converted to a high quality and low quality level of image.  One for high resolution computerized transcription and the other for the user to parse table structure graphically.
 	
-	3. Each image is opened and a user must click the top left and bottom right of each table.  Right click to move to the next page. 
+3. Each image is opened and a user must click the top left and bottom right of each table.  Right click to move to the next page. 
 	
-	4. The images are displayed to a user to idenitfy for each table for each page; pixel range and disctinction for rows and columns, title, and double headers.  Double headers are when a column might be under a sub header. This step seems to be a unique feature to this software to my knowledge.  Please contact me if you have found another software package for how this "double header" information is captured.  
+4. The images are displayed to a user to idenitfy for each table for each page; pixel range and disctinction for rows and columns, title, and double headers.  Double headers are when a column might be under a sub header. This step seems to be a unique feature to this software to my knowledge.  Please contact me if you have found another software package for how this "double header" information is captured.  
 	
-	5. The images are then broken into individual cell images broken down into table folders. 
+5. The images are then broken into individual cell images broken down into table folders. 
 
-	6. The transcription process of the project can now be initialized.  All cells are now transcription tasks.
+6. The transcription process of the project can now be initialized.  All cells are now transcription tasks.
 
-    7. The user wills transcribe a sampling of all the transciption tasks until they each have transcribed each cell in the project.  Their time of transcription, username, and cell value are recorded in a file in the project directory "alltranscriptions.csv".  The number of tasks to do before saving to "alltranscriptions.csv" is a parameter to set before the project or in the function or it will default to five. 
+7. The user wills transcribe a sampling of all the transciption tasks until they each have transcribed each cell in the project.  Their time of transcription, username, and cell value are recorded in a file in the project directory "alltranscriptions.csv".  The number of tasks to do before saving to "alltranscriptions.csv" is a parameter to set before the project or in the function or it will default to five. 
 
-    8. The project will regularly check for aggreement of cell values and remove these cells from the project to sample transcriptions from. 
+8. The project will regularly check for aggreement of cell values and remove these cells from the project to sample transcriptions from. 
 
-    9. When there are no more cells that have been agreed upon, the project can no be exported in a file formats to your desire.  These formats are 
+9. When there are no more cells that have been agreed upon, the project can no be exported in a file formats to your desire.  These formats are 
 
     *A .Rdata file 
+    
     *A json file
 
 ## Thank You For Reading
