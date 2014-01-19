@@ -1,3 +1,4 @@
+#' @export
 Initialize_Transcription <- function(project) {
   
   all_folders <- list.dirs(project, recursive = FALSE)

@@ -1,4 +1,4 @@
-
+#' @export
 Parse_Tables <- function(project) {
   require(png)
   folders <- list.dirs(project, recursive = FALSE)

@@ -1,3 +1,4 @@
+#' @export
 Transcribe <- function(project) {
   
   require(png)

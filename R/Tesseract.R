@@ -1,3 +1,4 @@
+#' @export
 Tesseract <- function(project) {
   transcriptions_to_do <- read.csv(paste(project, "alltranscriptions_to_do.csv", sep = "/"))
   

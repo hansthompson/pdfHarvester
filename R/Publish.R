@@ -1,3 +1,4 @@
+#' @export
 Publish <- function(project) {
   require(stringr)
   require(xlsx)

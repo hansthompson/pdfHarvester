@@ -1,3 +1,4 @@
+#' @export
 Parse_Cells <- function(project){
   require(png)
   folders <- list.dirs(project, recursive = FALSE)

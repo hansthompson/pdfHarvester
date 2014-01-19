@@ -1,3 +1,4 @@
+#' @export
 Update_Project <- function(project) {
   require(plyr)
   

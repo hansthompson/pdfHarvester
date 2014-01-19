@@ -1,3 +1,4 @@
+#' @export
 Convert <- function(project, convert.args1, convert.args2, convert.cmd){
   require(stringr)
   files <- list.files(project, pattern = ".pdf")
