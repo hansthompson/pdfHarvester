@@ -1,4 +1,4 @@
-# WELCOME
+# Welcome
 
 Do you quest for data sealed within the frozen images of pdf files? Then you must learn the the dark magic of pdfHavester. 
 
