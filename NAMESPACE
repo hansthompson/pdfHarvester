@@ -1,0 +1,8 @@
+export(Convert)
+export(Initialize_Transcription)
+export(Parse_Cells)
+export(Parse_Tables)
+export(Publish)
+export(Tesseract)
+export(Transcribe)
+export(Update_Project)
