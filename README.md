@@ -37,6 +37,43 @@ pdfHavester is a framework for using R and other open source tools to capture da
     *A .Rdata file 
     
     *A json file
+    
+## Installation
+
+1. Install Imagemagick and Tesesract. 
+2. Install R packages: png, plyr, stringr, RJSONIO, devtools, and xlsx (not used yet in this version). 
+3. Install using devtools and load it in. 
+```
+library(devtools)
+install_github("pdfHarvester", "hansthompson")
+library(pdfHarvester)
+```
+
+4. thats it. 
+
+## Sample script
+
+```
+directory <- "C:/Users/Public/CAFRfiles/hackathon"
+
+convert(directory, "-density 300", "-sharpen 0x1.0", "convert1")
+
+Parse_Tables(directory)
+
+Parse_Cells(directory)
+
+Initialize_Transcription(directory)
+
+Tesseract(directory)
+
+Transcribe(directory)
+
+Update_Project(directory)  ## Repeat regularly to move tasks to done. 
+
+Publish(directory) ## When all files meet the thresholds for accepting values, 
+## Publish will export the data into an R object or json formated text file in 
+## the project directory. 
+```
 
 ## Thank You For Reading
 
