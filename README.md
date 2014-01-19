@@ -49,6 +49,6 @@ hans.thompson1@gmail.com
 
 ## Criticism
 
-I am not an adept coder.  There are some ways I am familiar with that could speed up, simplify, or standardize the way I have written this.  If you feel that this is a hunk of garbage for these reasons, please suggest issues in github if you want a response from me, improve the code, and want to publicly shame me at the same. Go github. 
+I am not an adept coder.  There are some ways I am familiar with that could speed up, simplify, or standardize the way I have written this.  Please suggest issues in github if you want a response from me, improve the code, and want to publicly shame me at the same. Go github. 
 
 Like I mentioned above, OCR and existing options exist for table conversion.  This project is special for controling the level of quality for each transcription task.  Its a way of testing your assumptions of data quality. 
