@@ -1,6 +1,6 @@
 # Welcome to pdfHarvester
 
-Do you quest for data sealed within the frozen images of pdf files? Then you must learn the the dark magic of pdfHavester. 
+Do you quest for data sealed within the frozen images of pdf files? Then you seek the the dark magic of pdfHavester. 
 
 ## The jist of why this package was made
 
