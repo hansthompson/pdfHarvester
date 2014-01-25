@@ -2,6 +2,8 @@
 
 Do you quest for data sealed within the frozen images of pdf files? Then you seek the the dark magic of pdfHavester. 
 
+New Youtube Tutorial: http://www.youtube.com/watch?v=TaY_WaD7yPI
+
 ## The jist of why this package was made
 
 The two most popular existing approaches for transcription of tables is optical character regocintion (OCR) and data entry or loosly, "crowdsourcing". 
